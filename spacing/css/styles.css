@@ -1,0 +1,126 @@
+/*Element Spacing panel created by Paul Blackburn*/
+html {
+    background-color: #535353;
+    font-family: 'SFProDisplay-Medium';
+}
+
+ body {
+   
+    background-color: #535353;
+    -webkit-font-smoothing: antialiased;
+
+  
+}
+
+form
+{
+    width: 95%;
+    display:  inline-block; 
+    font-family: 'SFProDisplay-Medium';
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+}
+
+#spacing {
+    
+
+   font-family: 'SFProDisplay-Medium';
+    text-align: center;
+}
+.button {
+     font-family: 'SFProDisplay-Bold';
+
+     letter-spacing: 0.5px;
+}
+
+.formBtn {
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px;
+   
+    padding: 15px 10px 15px 10px;
+    font-size: 20px;
+    font-weight:normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #535353;
+    letter-spacing: 2px;
+    box-shadow: none;
+    margin:0 auto;
+ font-family: 'SFProDisplay-Medium';
+    text-align: center;
+
+}
+
+
+#content .btn {
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px;
+  font-family: 'SFProDisplay-Medium';
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    font-weight:normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #535353;
+    border-color: #4b4b4b;
+    border-width: 1px;
+    border-style: solid;
+    text-shadow: none;
+    box-shadow: none;
+    margin:0 auto;
+    cursor: pointer; cursor: hand;
+    text-align: center;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+
+#content .btn:hover {
+      background-color: #4b4b4b;
+            
+}
+
+
+.infoText {
+    font-family: 'SFProDisplay-Regular';
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.3;
+}
+
+
+/*
+Those classes will be edited at runtime with values specified
+by the settings of the CC application
+*/
+.hostFontColor{}
+.hostFontFamily{}
+.hostFontSize{}
+
+/*font family, color and size*/
+.hostFont{}
+/*background color*/
+.hostBgd{}
+/*lighter background color*/
+.hostBgdLight{}
+/*darker background color*/
+.hostBgdDark{}
+/*background color and font*/
+.hostElt{}
+
+
+.hostButton{
+    border:1px solid;
+    border-radius:2px;
+    height:20px;
+    vertical-align:bottom;
+    font-family:inherit;
+    color:inherit;
+    font-size:inherit;
+}
